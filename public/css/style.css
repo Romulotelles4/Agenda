@@ -46,6 +46,10 @@
 .btnPadrao:hover{
          color: rgb(109, 109, 206);
 }
+.form-check-input:checked{
+        background-color: rgb(109, 109, 206);
+        border-color: rgb(109, 109, 206) !important;
+}
 
 .btnEditar{
         text-decoration:none;
@@ -74,11 +78,11 @@
 .btnExcluir:hover{
         color: red;
 }
-
-
-.form-control{
-       height: 30px;
+.w3-input{
+        width: 600px;
+        height: 35px;
+        border-style: solid;
+        border-radius: 10px;
+        outline-color: rgb(109, 109, 206) ;
 }
-.form-check-input:checked{
-       
-}
+
